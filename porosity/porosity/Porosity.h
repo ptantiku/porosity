@@ -19,6 +19,7 @@ Revision History:
 #include <sstream>
 #include <map>
 #include <vector>
+#include "Common.h"
 #include <boost/dynamic_bitset.hpp>
 
 #include <boost/property_tree/ptree.hpp>
@@ -29,7 +30,6 @@ Revision History:
 
 #include "json/json.hpp"
 
-#include "Common.h"
 #include "CommonData.h"
 #include "Assert.h"
 #include "Output.h"
