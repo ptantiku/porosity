@@ -23,6 +23,16 @@ This new paradigm of applications opens the door to many possibilities and oppor
 
 As we, reverse engineers, know having access to source code is often a luxury. Hence, the need for an open-source tool like Porosity: decompiler for EVM bytecode into readable Solidity-syntax contracts – to enable static and dynamic analysis of compiled contracts but also vulnerability discovery.
 
+## Build instruction
+
+Linux:
+
+```
+cd ./porosity/porosity
+make
+```
+
+
 ## Getting Started
 First you can either compile your own Ethereum contract or analyze public contract from [Etherscan](https://etherscan.io/address/0x8d12a197cb00d4747a1fe03395095ce2a5cc6819#code).
 
